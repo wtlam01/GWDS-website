@@ -1,0 +1,19 @@
+title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+/* header sytles */
+
+header {
+    background-color: azure;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
