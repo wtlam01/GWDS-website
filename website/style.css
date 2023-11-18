@@ -8,7 +8,6 @@ header {
     background-color: azure;
     padding: 10px 0px 10px 0px;
     
-    
 }
 
 h1{
@@ -34,7 +33,14 @@ ul{
 
 .section-one {
     background-color: ivory;
+    
+}
 
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
 .preview{
