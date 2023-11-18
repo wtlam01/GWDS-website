@@ -17,8 +17,7 @@ p {
     text-align: center;
 }
 
-.container {
-    
+.container { 
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -31,7 +30,7 @@ p {
     padding: 4px;
 }
 
-.Typographic-system{
-    border: 2px solid green;
+.Typographic-System{
+    border: 2px solid green; 
     width: 275px;
 }
