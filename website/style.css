@@ -1,5 +1,6 @@
 body{
     background-color: cornflowerblue;
+    margin: 0;
 }
 
 /* header sytles */
@@ -12,7 +13,7 @@ header {
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
 }
 
@@ -27,6 +28,8 @@ ul{
     flex-direction: row;
     justify-content: flex-start;
 }
+
+
 
 
 /* section 2 center item */
@@ -63,7 +66,7 @@ h2{
     padding: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
-    font-size: 15px;
+    font-size: 55px;
 
  }
 
@@ -72,7 +75,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: navy;
-    font-size: 35px;
+    font-size: 55px;
     font-weight: bold;
 }
 
@@ -82,7 +85,7 @@ h2{
 }
 
 .caption{
-    font-size: 25px;
+    font-size: 35px;
     font-style: italic;
     text-align: center;
 }
@@ -101,6 +104,14 @@ h2{
 }
 
 .typography-group{
-    /*border: 2px solid yellow; */
-    width: 275px;
+    /* border: 2px solid yellow; */
+    /* width:275px; */
+    width: 25%;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center; 
+    color:floralwhite;
 }
