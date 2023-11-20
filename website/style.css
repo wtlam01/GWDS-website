@@ -1,0 +1,146 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+/* header sytles */
+
+header {
+    background-color: azure;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button{
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 20px 80px;
+    margin: 15px;
+    transition-duration: 4s;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+/* section 2 center item */
+
+.section-one {
+    background-color: ivory;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    padding: 20px 0px 20px 0px;
+}
+
+a{
+    font-size: 100px;
+    text-align: center;
+}
+
+.preview{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.Typography {
+    border: 1px solid rgb(0, 136, 255); 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 20%;   
+    padding: 20px; 
+    margin-left: 200px;
+ }
+
+ .preview-para{
+    flex: 1;
+    padding: 200px 400px 0 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 55px;
+
+ }
+
+ /* TYPOGRAPHY PAGE*/
+.typography-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: navy;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.typography{
+    /*border: 1px solid white;*/
+    background-color: darkslateblue;
+}
+
+.caption{
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.typography-item{
+   /* border: 1px dashed white;
+    width: 275px;
+    height: 275px;
+    padding: 4px; */
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    padding: 4px;
+}
+
+.typography-group{
+    /* border: 2px solid yellow; */
+    /* width:275px; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center; 
+    color:floralwhite;
+}
+
+.typography-word{
+    color: cornsilk;
+}
