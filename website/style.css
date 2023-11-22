@@ -13,7 +13,7 @@ header {
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 200px;
+    /* font-size: 50px; */
     text-align: center;
 }
 
@@ -74,17 +74,19 @@ a{
     flex-wrap: wrap;
     width: 20%;   
     padding: 20px; 
-    margin-left: 200px;
+    /* margin-left: 200px; */
  }
 
  .preview-para{
     flex: 1;
-    padding: 200px 400px 0 0px;
+    /* padding: 200px 400px 0 0px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
     font-size: 55px;
 
  }
+
+
 
  /* TYPOGRAPHY PAGE*/
 .typography-text{
@@ -120,9 +122,9 @@ a{
     padding: 4px; */
     width: 100%;
     height: auto;
-    max-width: 1200px;
-    max-height: 1200px;
-    padding: 4px;
+    min-width: 200px;
+    min-height: 200px; 
+    padding: 5px;
 }
 
 .typography-group{
