@@ -1,12 +1,12 @@
 body{
-    background-color: cornflowerblue;
+    background-color: #1c206a;
     margin: 0;
 }
 
 /* header sytles */
 
 header {
-    background-color: azure;
+    /* background-color: azure; */
     padding: 10px 0px 10px 0px;
     justify-content: space-between;
 }
@@ -15,6 +15,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 52px; 
     text-align: center;
+    color: white;
 }
 
 ul{
@@ -43,10 +44,10 @@ button{
 
 
 
-/* section 2 center item */
+/* section 1 center item */
 
 .section-one {
-    background-color: ivory;
+    background-color: #167ed9;
     text-align: center;
 }
 
@@ -58,6 +59,7 @@ h2{
 a{
     font-size: 30px;
     text-align: center;
+    color: #fdffedff;
 }
 
 .preview{
@@ -68,11 +70,11 @@ a{
 }
 
 .Typography {
-    border: 1px solid rgb(0, 136, 255); 
+    border: 1px solid #1c206a; 
     display: flex; 
     flex-wrap: wrap;
     width: 20%;   
-    padding: 20px; 
+    padding: 10px; 
     /* margin-left: 200px; */
  }
 
@@ -145,3 +147,18 @@ h3{
 .typography-word{
     color: cornsilk;
 }
+
+
+.section-two {
+    background-color: #1eb89a;
+    text-align: center;
+}
+
+.CARP {
+    border: 1px solid #1c206a; 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 20%;   
+    padding: 10px; 
+    /* margin-left: 200px; */
+ }
