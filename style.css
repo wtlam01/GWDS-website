@@ -93,8 +93,8 @@ a{
 .typography-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: navy;
-    font-size: 40px;
+    color: lightblue;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -117,10 +117,10 @@ a{
 }
 
 .typography-item{
-   /* border: 1px dashed white;
-    width: 20px;
-    height: 20px;
-    padding: 10px; */
+   /* border: 1px dashed white; */
+    /* width: 20px; */
+    /* height: 20px; */
+    /* padding: 10px; */
     width: 100%;
     height: auto;
     min-width: 10%;
@@ -139,7 +139,7 @@ a{
 
 h3{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center; 
     color:floralwhite;
 }
@@ -162,3 +162,58 @@ h3{
     padding: 10px; 
     /* margin-left: 200px; */
  }
+
+
+
+ /* CARP PAGE */
+ .carp-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carp{
+    /*border: 1px solid white;*/
+    background-color: darkslateblue;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.carp-item{
+   /* border: 1px dashed white; */
+    /* width: 20px; */
+    /* height: 20px; */
+    /* padding: 10px; */
+    width: 100%;
+    height: auto;
+    min-width: 10%;
+    min-height: 10%; 
+    padding: 15px;
+}
+
+.carp-group{
+    /* border: 2px solid yellow; */
+    /* width:275px; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center; 
+    color:floralwhite;
+}
+
+.carp-word{
+    color: cornsilk;
+}
