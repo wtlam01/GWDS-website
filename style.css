@@ -55,8 +55,6 @@ h1{
 }
 
 
-
-
 ul{
     list-style-type: none;
     padding: 5px;
@@ -188,6 +186,8 @@ h3{
 }
 
 
+/* section 2 */
+
 .section-two {
     background-color: #1eb89a;
     text-align: center;
@@ -255,4 +255,37 @@ h3{
 
 .carp-word{
     color: cornsilk;
+}
+
+
+/* section 3 -- coding worksheets */
+
+.section-three{
+    background-color: #3b73d4ff;
+    text-align: center;
+}
+
+
+/* coding html */
+
+.coding-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.coding {
+    /*border: 1px solid white;*/
+    background-color: darkslateblue;
+}
+
+.coding-group {
+    /* border: 2px solid yellow; */
+    /* width:275px; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
