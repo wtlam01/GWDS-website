@@ -289,3 +289,11 @@ h3{
     flex-direction: column;
     align-items: center;
 }
+
+.coding-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+ 
