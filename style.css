@@ -121,6 +121,7 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
     font-size: 20px;
+    justify-content: center;
 
  }
 
@@ -281,20 +282,18 @@ h3{
     background-color: darkslateblue;
 }
 
-.coding-group {
-    /* border: 2px solid yellow; */
-    /* width:275px; */
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .coding-container{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
+}
+
+.coding-link{
+    display: flex;
+    justify-content: center;
 }
  
 /* Section 4 */
@@ -302,3 +301,5 @@ h3{
     background-color: #3b73d4ff;
     text-align: center;
 }
+
+
