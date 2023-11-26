@@ -261,7 +261,7 @@ h3{
 /* section 3 -- coding worksheets */
 
 .section-three{
-    background-color: #3b73d4ff;
+    background-color: #15A5C8;
     text-align: center;
 }
 
@@ -297,3 +297,8 @@ h3{
     padding: 15px 25px 15px 15px;
 }
  
+/* Section 4 */
+.section-four{
+    background-color: #3b73d4ff;
+    text-align: center;
+}
