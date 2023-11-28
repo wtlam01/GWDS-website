@@ -169,11 +169,11 @@ a{
 .typography-group{
     /* border: 2px solid yellow; */ 
     /* /* width:275px; */
-    /* margin: 0 0 0 1px; */
     width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 1px 0 1px;
 }
 
 h3{
@@ -304,4 +304,40 @@ h3{
     text-align: center;
 }
 
+/* button style */
 
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: lightyellow;
+    color: #167ed9;
+}
+
+button:active{
+    background-color: lightyellow; 
+    box-shadow: 0 5px #1c206a;
+    transform: translateY(4px);
+}
+
+.button-one-section{
+    background-color: white;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-img{
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+}
