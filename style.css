@@ -188,6 +188,25 @@ h3{
     color: cornsilk;
 }
 
+/* a responsive navigation menu */
+@media screen and (max-width: 1200px) {
+    .typography-group {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .typography-group {
+        width: 50%; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .typography-group {
+        width: 100%; 
+    }
+}
+
 
 /* section 2 */
 
