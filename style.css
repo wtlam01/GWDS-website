@@ -109,7 +109,7 @@ a{
 }
 
 .Typography {
-    border: 1px solid #1c206a; 
+    /* border: 1px solid #1c206a;  */
     display: flex; 
     flex-wrap: wrap;
     width: 20%;   

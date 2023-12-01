@@ -25,3 +25,13 @@ table {
     width: 100%;
     height: 100%;
 }
+
+.turtle,
+.beluga {
+    /* border: 1px solid #1c206a;  */
+    display: flex; 
+    flex-wrap: wrap;
+    width: 20%;   
+    padding: 10px; 
+    /* margin-left: 200px; */
+ }
