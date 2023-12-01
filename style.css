@@ -109,7 +109,7 @@ a{
 }
 
 .Typography {
-    /* border: 1px solid #1c206a;  */
+    border: 4px inset #167ed9; 
     display: flex; 
     flex-wrap: wrap;
     width: 20%;   
@@ -216,7 +216,7 @@ h3{
 }
 
 .CARP {
-    border: 1px solid #1c206a; 
+    border: 5px outset #1eb89a; 
     display: flex; 
     flex-wrap: wrap;
     width: 20%;   
