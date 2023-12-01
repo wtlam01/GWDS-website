@@ -1,6 +1,7 @@
 body{
     background-color: #1c206a;
     margin: 0;
+    font-size: 50px;
 }
 
 /* header sytles */
@@ -133,7 +134,7 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: lightblue;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
