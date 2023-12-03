@@ -17,13 +17,6 @@ footer{
     text-align: center;
 }
 
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 52px; 
-    text-align: center;
-    color: white;
-}
-
 /* background colour/patterns */
 .bg{
     animation: slide 3s ease-in-out infinite alternate;
