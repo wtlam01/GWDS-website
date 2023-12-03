@@ -262,9 +262,16 @@ h3{
     margin: 0 1px 0 1px;
 }
 
-h3{
+p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    text-align: center; 
+    color:floralwhite;
+}
+
+.coding h3{
+    font-family: 'Gorditas', sans-serif;
+    font-size: 35px;
     text-align: center; 
     color:floralwhite;
 }
@@ -316,6 +323,10 @@ h3{
     background-color: darkslateblue;
 }
 
+.coding-group{
+    padding-bottom: 30px;
+}
+
 
 .coding-container{
     display: flex;
@@ -325,8 +336,8 @@ h3{
     padding: 15px 25px 15px 15px;
 }
 
-.coding-link{
-    font-size: 10px;
+.coding-link a{
+    font-size: 20px;
     display: flex;
     justify-content: center;
 }
