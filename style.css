@@ -126,7 +126,7 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: lightblue;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -136,7 +136,7 @@ a{
 }
 
 .caption{
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     text-align: center;
     padding: 10px;
@@ -172,7 +172,7 @@ a{
 
 .typography h3{
     font-family: 'Gorditas', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center; 
     color:floralwhite;
 }
@@ -224,7 +224,7 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: lightblue;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -235,7 +235,7 @@ a{
 
 .carp h3{
     font-family: 'Gorditas', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center; 
     color:floralwhite;
 }
@@ -328,7 +328,7 @@ a{
 
 .coding h3{
     font-family: 'Gorditas', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center; 
     color:#1eb89a;
 }
@@ -342,7 +342,7 @@ a{
 }
 
 .coding-link a{
-    font-size: 20px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
     color: wheat;
@@ -350,7 +350,7 @@ a{
 
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 24px;
     color:floralwhite;
     /* max-width: 960px; */
     text-align: center; 
