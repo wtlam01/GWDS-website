@@ -89,7 +89,7 @@ h2{
 }
 
 a{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     color: #fdffedff;
 }
@@ -322,6 +322,8 @@ a{
 
 .coding-group{
     padding-bottom: 30px;
+    max-width: 960px;
+    margin: auto;
 }
 
 .coding h3{
@@ -349,8 +351,9 @@ a{
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: center; 
     color:floralwhite;
+    /* max-width: 960px; */
+    text-align: center; 
 }
  
 
@@ -358,6 +361,31 @@ p{
 .section-four{
     background-color: #3b73d4ff;
     text-align: center;
+}
+
+/* reflection page */
+
+.essay{
+    background-color: #3b73d4ff;
+    margin-bottom: 0;
+}
+
+.essay p{
+    max-width: 960px;
+    margin: auto;
+   
+}
+
+.references{
+    /* background-color:darkslateblue; */
+    padding: 5px 20px 30px 20px;
+}
+
+.references h4{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gorditas', sans-serif;
 }
 
 /* button style */
@@ -397,3 +425,4 @@ button:active{
     box-shadow: 10px 10px 20px black;
     width: 70%;
 }
+
