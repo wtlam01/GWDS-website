@@ -55,10 +55,20 @@ ul{
 }
 
 .container-navigation{
+    margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.container-1{
+    margin-top: -50px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start; 
 }
 
 button{
@@ -72,8 +82,6 @@ button{
     font-size: 15px;
     text-align: center;
 }
-
-
 
 /* section 1 center item */
 
@@ -428,3 +436,69 @@ button:active{
     width: 70%;
 }
 
+/* p5.js page */
+.p5js-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p5js{
+    /*border: 1px solid white;*/
+    background-color: darkslateblue;
+}
+
+.p5js-item{
+    width: 100%;
+    height: auto;
+    min-width: 10%;
+    min-height: 10%; 
+    padding: 15px;
+}
+
+.p5js-group{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px 0 1px;
+}
+
+.p5js h3{
+    font-family: 'Gorditas', sans-serif;
+    font-size: 35px;
+    text-align: center; 
+    color:floralwhite;
+}
+
+.p5js-word{
+    color: cornsilk;
+}
+
+.p5js-link a{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
+
+/* a responsive navigation menu */
+@media screen and (max-width: 1200px) {
+    .p5js-group {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .p5js-group {
+        width: 50%; 
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .p5js-group {
+        width: 100%; 
+    }
+}
