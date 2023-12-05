@@ -293,7 +293,7 @@ a{
 }
 
 .references p{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
@@ -368,10 +368,12 @@ p{
 .essay{
     /* background-color: #3b73d4ff; */
     margin-bottom: 0;
+    margin-top: -50px;
 }
 
 .essay p{
     max-width: 960px;
+    font-size: 25px;
     margin: auto;
    
 }
