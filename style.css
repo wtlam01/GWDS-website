@@ -393,10 +393,14 @@ p {
 }
 
 .references h4 {
-    color: white;
+    color: gainsboro;
     font-size: 25px;
     text-align: center;
     font-family: 'Gorditas', sans-serif;
+}
+
+.references p{
+    color: gainsboro;
 }
 
 /* button style */
