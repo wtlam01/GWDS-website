@@ -411,7 +411,6 @@ p {
 }
 
 /* button style */
-
 button {
     border: 1px solid black;
     border-radius: 5px;
@@ -509,6 +508,54 @@ button:active {
     .p5js-group {
         width: 100%;
     }
+}
+
+.p5js-2{
+    background-color: #176cce;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px 0 1px;
+}
+
+.p5js-2 h3{
+    font-family: 'Gorditas', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: floralwhite;
+}
+
+.p5js-3{
+    background-color: #15A5C8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p5js-3 h3{
+    font-family: 'Gorditas', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: floralwhite;
+}
+
+.p5js-3 p {
+    max-width: 960px;
+    font-size: 25px;
+    text-align: center;
+    color: cornsilk;
+}
+
+.p5js-3 h4{
+    font-family: 'Gorditas', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: burlywood;
+}
+
+.p5js-references p{
+    color: gainsboro;
+    font-size: 18px;
 }
 
 /* 3D and Video page */
