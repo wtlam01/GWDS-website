@@ -365,6 +365,13 @@ p {
     text-align: center;
 }
 
+.line {
+    height: 10px;
+    background-color: darkblue;
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 /* Section 4 */
 .section-four {
@@ -399,7 +406,7 @@ p {
     font-family: 'Gorditas', sans-serif;
 }
 
-.references p{
+.references p {
     color: gainsboro;
 }
 
@@ -542,12 +549,12 @@ button:active {
     color: floralwhite;
 }
 
-.youtube h3{
-font-family: 'Gorditas', sans-serif;
-font-size: 35px;
-text-align: center;
-margin-top: -50px;
-color: floralwhite;
+.youtube h3 {
+    font-family: 'Gorditas', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -50px;
+    color: floralwhite;
 }
 
 .youtube {
