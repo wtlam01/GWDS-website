@@ -98,6 +98,13 @@ h2 {
     font-family: 'Rocher', Times, serif;
     padding: -10px 0px 20px 0px;
     text-align: center;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 20px;
+    }
 }
 
 .section-one h2{
