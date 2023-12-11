@@ -85,7 +85,6 @@ button {
 }
 
 /* section 1 center item */
-
 .section-one {
     background-color: #167ed9;
     text-align: center;
@@ -215,6 +214,7 @@ a {
 .section-two {
     background-color: #1eb89a;
     text-align: center;
+    padding-top: 1px;
 }
 
 .CARP {
@@ -222,7 +222,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     width: 20%;
-    padding: 10px;
+    /* padding: 10px; */
     /* margin-left: 200px; */
 }
 
@@ -311,6 +311,7 @@ a {
 .section-three {
     background-color: #15A5C8;
     text-align: center;
+    padding-top: 1px;
 }
 
 
@@ -377,6 +378,7 @@ p {
 .section-four {
     background-color: #3b73d4ff;
     text-align: center;
+    padding-top: 1px;
 }
 
 /* reflection page */
