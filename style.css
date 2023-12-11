@@ -12,9 +12,11 @@ header {
     justify-content: space-between;
 }
 
-table{
-    align-items: center;
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 footer p {
     font-size: 12px;
@@ -107,7 +109,7 @@ h2 {
     }
 }
 
-.section-one h2{
+.section-one h2 {
     padding: 20px 0px 20px 0px;
 }
 
@@ -527,7 +529,7 @@ button:active {
     }
 }
 
-.p5js-2{
+.p5js-2 {
     background-color: #176cce;
     display: flex;
     flex-direction: column;
@@ -535,21 +537,21 @@ button:active {
     margin: 0 1px 0 1px;
 }
 
-.p5js-2 h3{
+.p5js-2 h3 {
     font-family: 'Gorditas', sans-serif;
     font-size: 35px;
     text-align: center;
     color: floralwhite;
 }
 
-.p5js-3{
+.p5js-3 {
     background-color: #15A5C8;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.p5js-3 h3{
+.p5js-3 h3 {
     font-family: 'Gorditas', sans-serif;
     font-size: 35px;
     text-align: center;
@@ -563,14 +565,14 @@ button:active {
     color: cornsilk;
 }
 
-.p5js-3 h4{
+.p5js-3 h4 {
     font-family: 'Gorditas', sans-serif;
     font-size: 30px;
     text-align: center;
     color: burlywood;
 }
 
-.p5js-references p{
+.p5js-references p {
     color: gainsboro;
     font-size: 18px;
 }
