@@ -26,6 +26,20 @@ table {
     height: 100%;
 }
 
+@media screen and (max-width: 860px) {
+    .dolphin {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .whale {
+        width: 50%;
+        height: 50%;
+    }
+}
+
 .turtle,
 .beluga {
     /* border: 1px solid #1c206a;  */
