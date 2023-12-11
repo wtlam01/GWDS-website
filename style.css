@@ -69,15 +69,6 @@ ul {
     justify-content: flex-start; 
 }
 
-/* .container-1 {
-    margin-top: -50px;
-    margin-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-} */
-
 button {
     border: 1px solid white;
     border-radius: 5px;

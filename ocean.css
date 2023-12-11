@@ -28,15 +28,15 @@ table {
 
 @media screen and (max-width: 860px) {
     .dolphin {
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
     }
 }
 
 @media screen and (max-width: 860px) {
     .whale {
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
     }
 }
 
