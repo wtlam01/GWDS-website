@@ -62,21 +62,21 @@ ul {
 }
 
 .container-navigation {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start; 
 }
 
-.container-1 {
+/* .container-1 {
     margin-top: -50px;
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-}
+} */
 
 button {
     border: 1px solid white;
@@ -89,6 +89,10 @@ button {
     font-size: 15px;
     text-align: center;
 }
+
+.push{
+    margin-left: auto;
+  }
 
 /* section 1 center item */
 .section-one {
