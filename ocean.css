@@ -3,7 +3,7 @@
     src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
 }
 
-body{
+body {
     font-family: 'Rocher';
     margin: 0;
     font-size: 50px;
@@ -29,9 +29,9 @@ table {
 .turtle,
 .beluga {
     /* border: 1px solid #1c206a;  */
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    width: 20%;   
-    padding: 10px; 
+    width: 20%;
+    padding: 10px;
     /* margin-left: 200px; */
- }
+}

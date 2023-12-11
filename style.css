@@ -92,13 +92,13 @@ button {
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
-    padding: 20px 0px 20px 0px;
+    font-family: 'Rocher', Times, serif;
+     padding: 20px 0px 20px 0px; */
     text-align: center;
 }
 
 a {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     color: #fdffedff;
 }
