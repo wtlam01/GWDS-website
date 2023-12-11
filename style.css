@@ -12,6 +12,10 @@ header {
     justify-content: space-between;
 }
 
+table{
+    align-items: center;
+}
+
 footer p {
     font-size: 12px;
     text-align: center;
