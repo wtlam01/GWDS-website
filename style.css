@@ -189,7 +189,7 @@ a {
 
 @media only screen and (max-width: 320px) {
     .typography-text {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -199,10 +199,22 @@ a {
 }
 
 .caption {
-    font-size: 24px;
+    font-size: 25px;
     font-style: normal;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 860px) {
+    .caption {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .caption {
+        font-size: 15px;
+    }
 }
 
 .container {
@@ -238,6 +250,18 @@ a {
     font-size: 35px;
     text-align: center;
     color: floralwhite;
+}
+
+@media only screen and (max-width: 860px) {
+    .typography h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .typography h3 {
+        font-size: 25px;
+    }
 }
 
 .typography-word {
@@ -292,6 +316,18 @@ a {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 860px) {
+    。carp-text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .carp-text {
+        font-size: 20px;
+    }
+}
+
 .carp {
     /*border: 1px solid white;*/
     background-color: darkslateblue;
@@ -302,6 +338,18 @@ a {
     font-size: 35px;
     text-align: center;
     color: floralwhite;
+}
+
+@media only screen and (max-width: 860px) {
+    .carp h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .carp h3 {
+        font-size: 25px;
+    }
 }
 
 
@@ -360,6 +408,12 @@ a {
     font-size: 15px;
 }
 
+@media screen and (max-width: 860px) {
+    .references p{
+       font-size: 10px;
+    }
+}
+
 
 /* section 3 -- coding worksheets */
 
@@ -380,6 +434,18 @@ a {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 860px) {
+    。coding-text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .coding-text {
+        font-size: 20px;
+    }
+}
+
 .coding {
     /*border: 1px solid white;*/
     background-color: darkslateblue;
@@ -398,6 +464,18 @@ a {
     color: #1eb89a;
 }
 
+@media only screen and (max-width: 860px) {
+    .coding h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .coding h3 {
+        font-size: 25px;
+    }
+}
+
 .coding-container {
     display: flex;
     flex-direction: column;
@@ -413,12 +491,36 @@ a {
     color: wheat;
 }
 
+@media only screen and (max-width: 860px) {
+    .coding-link a {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .coding-link a {
+        font-size: 18px;
+    }
+}
+
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     color: floralwhite;
     /* max-width: 960px; */
     text-align: center;
+}
+
+@media only screen and (max-width: 860px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    p {
+        font-size: 16px;
+    }
 }
 
 .line {
@@ -449,6 +551,19 @@ p {
     font-size: 25px;
     margin: auto;
 
+}
+
+
+@media only screen and (max-width: 860px) {
+    .essay p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    。essay p {
+        font-size: 15px;
+    }
 }
 
 .references {
@@ -513,6 +628,18 @@ button:active {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 860px) {
+    .p5js-text {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-text {
+        font-size: 25px;
+    }
+}
+
 .p5js {
     /*border: 1px solid white;*/
     background-color: darkslateblue;
@@ -541,11 +668,35 @@ button:active {
     color: floralwhite;
 }
 
+@media only screen and (max-width: 860px) {
+    .p5js h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js h3 {
+        font-size: 25px;
+    }
+}
+
 .p5js-link a {
     font-size: 30px;
     display: flex;
     justify-content: center;
     color: wheat;
+}
+
+@media only screen and (max-width: 860px) {
+    .p5js-link a {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-link a {
+        font-size: 20px;
+    }
 }
 
 /* a responsive navigation menu */
@@ -582,6 +733,19 @@ button:active {
     color: floralwhite;
 }
 
+@media only screen and (max-width: 860px) {
+    .p5js-2 h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-2 h3 {
+        font-size: 25px;
+    }
+}
+
+
 .p5js-3 {
     background-color: #15A5C8;
     display: flex;
@@ -596,11 +760,37 @@ button:active {
     color: floralwhite;
 }
 
+
+@media only screen and (max-width: 860px) {
+    .p5js-3 h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-3 h3 {
+        font-size: 25px;
+    }
+}
+
 .p5js-3 p {
     max-width: 960px;
     font-size: 25px;
     text-align: center;
     color: cornsilk;
+}
+
+
+@media only screen and (max-width: 860px) {
+    .p5js-3 p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-3 p {
+        font-size: 15px;
+    }
 }
 
 .p5js-3 h4 {
@@ -610,9 +800,33 @@ button:active {
     color: burlywood;
 }
 
+@media only screen and (max-width: 860px) {
+    .p5js-3 h4 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-3 h4 {
+        font-size: 20px;
+    }
+}
+
 .p5js-references p {
     color: gainsboro;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 860px) {
+    .p5js-references p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .p5js-references p {
+        font-size: 10px;
+    }
 }
 
 /* 3D and Video page */
@@ -622,6 +836,18 @@ button:active {
     color: lightblue;
     font-size: 35px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 860px) {
+    .video-text {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .video-text {
+        font-size: 25px;
+    }
 }
 
 .video {
@@ -653,6 +879,18 @@ button:active {
     color: floralwhite;
 }
 
+@media only screen and (max-width: 860px) {
+    .video h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .video h3 {
+        font-size: 25px;
+    }
+}
+
 .youtube h3 {
     font-family: 'Gorditas', sans-serif;
     font-size: 35px;
@@ -660,6 +898,19 @@ button:active {
     margin-top: -50px;
     color: floralwhite;
 }
+
+@media only screen and (max-width: 860px) {
+    .youtube h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .youtube h3 {
+        font-size: 25px;
+    }
+}
+
 
 .youtube {
     height: 500px;
