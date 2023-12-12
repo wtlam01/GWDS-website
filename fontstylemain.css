@@ -3,18 +3,18 @@ h1 {
     color: white;
     margin: auto;
     letter-spacing: 1px;
-    font-size: 52px;
+    font-size: 55px;
     text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 860px) {
     h1 {
-        font-size: 35px;
+        font-size: 45px;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 320px) {
     h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 }

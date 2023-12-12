@@ -28,15 +28,29 @@ table {
 
 @media screen and (max-width: 860px) {
     .dolphin {
-        width: 70%;
-        height: 70%;
+        width: 90%;
+        height: 90%;
     }
 }
 
 @media screen and (max-width: 860px) {
     .whale {
-        width: 70%;
-        height: 70%;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .dolphin {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .whale {
+        width: 80%;
+        height: 80%;
     }
 }
 
@@ -46,6 +60,36 @@ table {
     display: flex;
     flex-wrap: wrap;
     width: 20%;
+    height:20%;
     padding: 10px;
     /* margin-left: 200px; */
+}
+
+
+@media screen and (max-width: 860px) {
+    .turtle {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .beluga {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .turtle {
+        width: 10%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .beluga {
+        width: 10%;
+        height: 10%;
+    }
 }
